@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import nelsioLogo from "@/assets/nelsio-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -61,8 +62,8 @@ function Nav() {
       }`}
     >
       <div className="container-nelsio flex h-16 items-center justify-between">
-        <a href="#top" className="text-[15px] font-medium tracking-[-0.02em] text-foreground">
-          NELSIO
+        <a href="#top" className="flex items-center" aria-label="NELSIO home">
+          <img src={nelsioLogo.url} alt="NELSIO" className="h-6 w-auto md:h-7" />
         </a>
         <nav className="hidden items-center gap-10 md:flex">
           {NAV_LINKS.map((l) => (
@@ -88,18 +89,53 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="container-nelsio pt-40 pb-32 md:pt-56 md:pb-44">
-      <p className="mb-10 text-[12px] uppercase tracking-[0.22em] text-muted-foreground">
-        A Company Builder
+    <section id="top" className="relative overflow-hidden">
+      {/* Subtle background grid */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 opacity-[0.55]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, var(--border) 1px, transparent 1px), linear-gradient(to bottom, var(--border) 1px, transparent 1px)",
+          backgroundSize: "72px 72px",
+          maskImage:
+            "radial-gradient(ellipse 80% 60% at 50% 40%, black 40%, transparent 85%)",
+          WebkitMaskImage:
+            "radial-gradient(ellipse 80% 60% at 50% 40%, black 40%, transparent 85%)",
+        }}
+      />
+      {/* Soft radial highlight */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse 60% 40% at 50% 30%, oklch(0.97 0 0) 0%, transparent 70%)",
+        }}
+      />
+      <div className="container-nelsio relative pt-40 pb-32 md:pt-52 md:pb-44">
+      <p className="mb-12 text-[11px] uppercase tracking-[0.32em] text-muted-foreground">
+        — A Company Builder
       </p>
-      <h1 className="max-w-[18ch] text-[44px] font-medium leading-[1.02] tracking-[-0.035em] text-foreground sm:text-[64px] md:text-[88px]">
-        Ideas become enterprises.
-      </h1>
-      <p className="mt-10 max-w-[60ch] text-[17px] leading-[1.65] text-muted-foreground md:text-[19px]">
-        NELSIO transforms ambitious ideas into enduring companies. Through
-        technology, execution, and long-term thinking, we build ventures that
-        create lasting value for people, industries, and society.
-      </p>
+      <img
+        src={nelsioLogo.url}
+        alt="NELSIO — Ideas become enterprises."
+        className="-mx-2 w-full max-w-[820px] select-none"
+        draggable={false}
+      />
+      <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-12">
+        <div className="md:col-span-1 hidden md:block">
+          <div className="mt-3 h-px w-10 bg-foreground" />
+        </div>
+        <p className="md:col-span-7 text-[18px] leading-[1.6] tracking-[-0.01em] text-foreground md:text-[22px]">
+          A quiet company builder operating independent ventures across
+          technology, education, and consumer services —
+          <span className="text-muted-foreground">
+            {" "}built with patience, executed with craft, and designed to
+            outlast the moment they were started in.
+          </span>
+        </p>
+      </div>
       <div className="mt-14 flex flex-wrap items-center gap-6">
         <a
           href="#ventures"
@@ -113,6 +149,7 @@ function Hero() {
         >
           About NELSIO →
         </a>
+      </div>
       </div>
     </section>
   );
