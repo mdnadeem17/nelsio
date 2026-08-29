@@ -1,0 +1,66 @@
+User-agent: *
+Allow: /
+
+# ── OpenAI / ChatGPT ──────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ── Anthropic / Claude ────────────────────────────────────────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# ── Perplexity ────────────────────────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Google (Gemini / AI Overviews) ────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ── Apple Intelligence ────────────────────────────────────────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Amazon / Alexa ────────────────────────────────────────────
+User-agent: Amazonbot
+Allow: /
+
+# ── Cohere ────────────────────────────────────────────────────
+User-agent: cohere-ai
+Allow: /
+
+# ── You.com ───────────────────────────────────────────────────
+User-agent: YouBot
+Allow: /
+
+# ── Meta AI ───────────────────────────────────────────────────
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# ── Mistral / Le Chat ─────────────────────────────────────────
+User-agent: MistralBot
+Allow: /
+
+# ── Sitemap ───────────────────────────────────────────────────
+Sitemap: https://www.nelsio.com/sitemap.xml

@@ -86,6 +86,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
     ],
     links: [
+      { rel: "canonical", href: "https://www.nelsio.com" },
+      { rel: "icon", type: "image/png", href: "/nelsio-logo.png?v=2" },
+      { rel: "shortcut icon", type: "image/png", href: "/nelsio-logo.png?v=2" },
+      { rel: "apple-touch-icon", href: "/nelsio-logo.png?v=2" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

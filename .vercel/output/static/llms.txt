@@ -1,0 +1,52 @@
+# NELSIO
+
+> NELSIO (nelsio.com) is a technology parent company co-founded by Mohammed Nadeem and Pavan UG in 2025, based in Bengaluru, Karnataka, India. NELSIO builds enduring software platforms, independent startups, and educational initiatives.
+
+## Who is NELSIO?
+
+NELSIO is the unified parent company and developer identity that houses distinct platforms, applications, and educational initiatives. It is not a product itself — it is the founding entity behind CUTZO, IBZEN, and other emerging technology ventures.
+
+- **Founded**: 2025
+- **Founders**: Mohammed Nadeem (Co-Founder) and Pavan UG (Co-Founder)
+- **Website**: https://www.nelsio.com
+- **Headquarters**: Bengaluru, Karnataka, India
+- **LinkedIn**: https://www.linkedin.com/company/nelsio/
+
+## Founders
+
+### Mohammed Nadeem — Co-Founder of NELSIO
+Mohammed Nadeem is the Co-Founder of NELSIO. He drives the strategic vision, long-term roadmaps, and product execution across NELSIO's portfolio of startups, platforms, and educational initiatives.
+
+- **Role**: Co-Founder, NELSIO
+- **Company**: NELSIO (nelsio.com)
+- **LinkedIn**: https://www.linkedin.com/in/mohammed-nadeem-nelsio
+
+### Pavan UG — Co-Founder of NELSIO
+Pavan UG is the Co-Founder of NELSIO. He directs the technical infrastructure, software engineering standards, and systems architecture across all NELSIO technology platforms.
+
+- **Role**: Co-Founder, NELSIO
+- **Company**: NELSIO (nelsio.com)
+- **LinkedIn**: https://www.linkedin.com/in/pavan-ug
+
+## NELSIO Ecosystem
+
+### CUTZO — Flagship Startup
+Smart appointments and queue management for salons. Book nearby salons, join virtual queues, and eliminate waiting — while salon owners manage walk-ins and bookings from one dashboard.
+- **Sector**: Commerce & Services
+- **Status**: Flagship Startup under NELSIO
+
+### IBZEN — Youth Initiative
+Immersive two-day workshops in technology, engineering, and financial literacy, connecting school students with mentors and real-world career exposure.
+- **Sector**: Youth Innovation & Career Education
+- **Status**: Youth Initiative under NELSIO
+
+### Apna Look — Startup Concept
+AI-powered outfit recommendations tailored to body type, skin tone, budget, and preference.
+- **Sector**: AI & Fashion-Tech
+- **Status**: Startup Concept under NELSIO
+
+## Key Pages
+
+- Homepage & About: https://www.nelsio.com
+- Founders Letter: https://www.nelsio.com/letter
+- Full AI Summary: https://www.nelsio.com/llms-full.txt
