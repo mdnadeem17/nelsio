@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import nelsioLogo from "@/assets/nelsio-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -63,7 +62,7 @@ function Nav() {
     >
       <div className="container-nelsio flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center" aria-label="NELSIO home">
-          <img src={nelsioLogo.url} alt="NELSIO" className="h-6 w-auto md:h-7" />
+          <img src="/nelsio-logo.png" alt="NELSIO" className="h-6 w-auto md:h-7 mix-blend-multiply dark:invert dark:mix-blend-screen" />
         </a>
         <nav className="hidden items-center gap-10 md:flex">
           {NAV_LINKS.map((l) => (
@@ -118,9 +117,9 @@ function Hero() {
         — A Company Builder
       </p>
       <img
-        src={nelsioLogo.url}
+        src="/nelsio-logo.png"
         alt="NELSIO — Ideas become enterprises."
-        className="-mx-2 w-full max-w-[820px] select-none"
+        className="-mx-2 w-full max-w-[820px] select-none mix-blend-multiply dark:invert dark:mix-blend-screen"
         draggable={false}
       />
       <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-12">
@@ -349,15 +348,9 @@ function Contact() {
         </h2>
         <div className="md:col-span-4 md:col-start-9 space-y-8">
           <div>
-            <div className="text-[12px] uppercase tracking-[0.18em] text-muted-foreground">General</div>
-            <a href="mailto:hello@nelsio.com" className="mt-2 block text-[18px] text-foreground hover:opacity-60">
-              hello@nelsio.com
-            </a>
-          </div>
-          <div>
-            <div className="text-[12px] uppercase tracking-[0.18em] text-muted-foreground">Ventures</div>
-            <a href="mailto:ventures@nelsio.com" className="mt-2 block text-[18px] text-foreground hover:opacity-60">
-              ventures@nelsio.com
+            <div className="text-[12px] uppercase tracking-[0.18em] text-muted-foreground">WhatsApp</div>
+            <a href="https://wa.me/919164228596" target="_blank" rel="noopener noreferrer" className="mt-2 block text-[18px] text-foreground hover:opacity-60">
+              +91 91 6422 859 6
             </a>
           </div>
         </div>
